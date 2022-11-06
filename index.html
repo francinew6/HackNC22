@@ -1,117 +1,133 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-   <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>What's Up at UNC?</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="formatting.css" /> 
-    <!-- js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.21/jquery.csv.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-<script src="js/script.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="formatting.css" />
 </head>
+
 <body>
   <section>
     <h1> No Ideas </h1>
   </section>
   <section>
-      <h1>Locations:</h1>
-      <div class="cardRow">
-        <div class="clusterCard">
-          <div class="contentCluster">
-            <h3>Cobb Hall</h3>
-            <img src="https://2rw.com/wp-content/uploads/2018/01/Cobb-5.jpg" alt="Cobb Residence Hall">
-            <p>
-              <ul>
-                <li>This residence hall, built in 1952, honors longtime Carolina professor Collier Cobb. In 1892, he joined the university’s faculty to teach geology and mineralogy and served as chair of the department until his death in 1934</li>
-                <li>110 Country Club Rd, Chapel Hill, NC 27514</li>
-              </ul>
-            </p>
-          </div>
-          <button class="d-1" id="cobb">What's Happening?</button>
-        </div>
-        <div class="clusterCard">
-          <div class="contentCluster">
-            <h3>Hamilton Hall</h3>
-            <img src="https://college.unc.edu/wp-content/uploads/sites/1280/2020/04/Hamilton-Hall-3310.jpg" alt="Hamilton Hall">
-            <p>
-              <ul>
-                <li>Hamilton Hall was named for Joseph Grégoire de Roulhac Hamilton in 1972</li>
-                <li>102 Emerson Dr, Chapel Hill, NC 27514</li>
-              </ul>
-            </p>
-          </div>
-          <button class="d-1" id="hamilton">What's Happening?</button>
-        </div>
-        <div class="clusterCard">
-          <div class="contentCluster">
-            <h3>Hanes Art Center</h3>
-            <img src="https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=111&image=111/IMG_3149.JPG&w=900&h=508&r=1" alt="Hanes Art Center">
-            <p>
-              <ul>
-                <li>Completed in 1985, the Hanes Art Center is the central hub for Carolina’s art and art history programs</li>
-                <li>121 E Cameron Ave, Chapel Hill, NC 27514</li>
-              </ul>
-            </p>
-          </div>
-          <button class="d-1" id="hanes">What's Happening?</button>
-        </div>
-      </div>
+    <h1>Locations:</h1>
     <div class="cardRow">
       <div class="clusterCard">
-          <div class="contentCluster">
-            <h3>Phillips Hall</h3>
-            <img src="https://images.squarespace-cdn.com/content/v1/5a25412ba9db090486f68573/1543501056974-IE96J0MP58OJJ6A93YCQ/Phillips-01web.jpg?format=1000w" alt="Phillips Hall">
-            <p>
-              <ul>
-                <li>Phillips Hall opened in 1919 and honored three members of the Phillips family who taught at the university during the nineteenth century</li>
-                <li>E Cameron Ave, Chapel Hill, NC 27514</li>
-              </ul>
-            </p>
-          </div>
-          <button class="d-1" id="phillips">What's Happening?</button>
+        <div class="contentCluster">
+          <h3>Cobb Hall</h3>
+          <img src="https://2rw.com/wp-content/uploads/2018/01/Cobb-5.jpg" alt="Cobb Residence Hall">
+          <p>
+          <ul>
+            <li>This residence hall, built in 1952, honors longtime Carolina professor Collier Cobb. In 1892, he joined
+              the university’s faculty to teach geology and mineralogy and served as chair of the department until his
+              death in 1934</li>
+            <li>110 Country Club Rd, Chapel Hill, NC 27514</li>
+          </ul>
+          </p>
         </div>
-      <!-- container 1 -->
-        <div class="clusterCard">
-          <!-- container 2 & item 1 -->
-          <div class="contentCluster">
-            <!-- container 3 & item 2 -->
-            <h3>Sitterson Hall</h3>
-            <!-- item 2.1 -->
-            <img src="https://hga.com/wp-content/uploads/2019/09/University-of-North-Carolina-Brooks-Computer-Science-Building-exterior.jpg" alt="Computer Science Building">
-            <p>
-              <ul>
-                <li>Dedicated in 1987, this building honors J. Carlyle Sitterson, university chancellor from 1966 to 1971</li>
-                <li>201 S. Columbia St. Chapel Hill, NC 27514</li>
-              </ul>
-             </p>
-            <!-- item 2.2 -->
-          </div>
-          <button class="d-1" id="sitterson">What's Happening?</button>
-          <!-- item -->
-        </div>
-      <!-- container 1 -->
-        <div class="clusterCard">
-          <!-- container 2 & item 1 -->
-          <div class="contentCluster">
-            <!-- container 3 & item 2 -->
-            <h3>Sonja Haynes Stone Center</h3>
-            <!-- item 2.1 -->
-            <img src="https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=111&image=111/Stone_Ctr-1.jpg&w=900&h=508&r=1" alt="Stone Center Library">
-            <p>
-              <ul>
-                <li>The Sonja Haynes Stone Center for Black Culture and History was founded on July 1, 1988 at the University of North Carolina at Chapel Hill</li>
-                <li>150 South Rd, Chapel Hill, NC 27599</li>
-              </ul>
-             </p>
-            <!-- item 2.2 -->
-          </div>
-          <button class="d-1" id="stone">What's Happening?</button>
-          <!-- item -->
-        </div>
+        <button class="d-1" id="cobb">What's Happening?</button>
       </div>
-    </section>
+      <div class="clusterCard">
+        <div class="contentCluster">
+          <h3>Hamilton Hall</h3>
+          <img src="https://college.unc.edu/wp-content/uploads/sites/1280/2020/04/Hamilton-Hall-3310.jpg"
+            alt="Hamilton Hall">
+          <p>
+          <ul>
+            <li>Hamilton Hall was named for Joseph Grégoire de Roulhac Hamilton in 1972</li>
+            <li>102 Emerson Dr, Chapel Hill, NC 27514</li>
+          </ul>
+          </p>
+        </div>
+        <button class="d-1" id="hamilton">What's Happening?</button>
+      </div>
+      <div class="clusterCard">
+        <div class="contentCluster">
+          <h3>Hanes Art Center</h3>
+          <img
+            src="https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=111&image=111/IMG_3149.JPG&w=900&h=508&r=1"
+            alt="Hanes Art Center">
+          <p>
+          <ul>
+            <li>Completed in 1985, the Hanes Art Center is the central hub for Carolina’s art and art history programs
+            </li>
+            <li>121 E Cameron Ave, Chapel Hill, NC 27514</li>
+          </ul>
+          </p>
+        </div>
+        <button class="d-1" id="hanes">What's Happening?</button>
+      </div>
+    </div>
+    <div class="cardRow">
+      <div class="clusterCard">
+        <div class="contentCluster">
+          <h3>Phillips Hall</h3>
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/5a25412ba9db090486f68573/1543501056974-IE96J0MP58OJJ6A93YCQ/Phillips-01web.jpg?format=1000w"
+            alt="Phillips Hall">
+          <p>
+          <ul>
+            <li>Phillips Hall opened in 1919 and honored three members of the Phillips family who taught at the
+              university during the nineteenth century</li>
+            <li>E Cameron Ave, Chapel Hill, NC 27514</li>
+          </ul>
+          </p>
+        </div>
+        <button class="d-1" id="phillips">What's Happening?</button>
+      </div>
+      <!-- container 1 -->
+      <div class="clusterCard">
+        <!-- container 2 & item 1 -->
+        <div class="contentCluster">
+          <!-- container 3 & item 2 -->
+          <h3>Sitterson Hall</h3>
+          <!-- item 2.1 -->
+          <img
+            src="https://hga.com/wp-content/uploads/2019/09/University-of-North-Carolina-Brooks-Computer-Science-Building-exterior.jpg"
+            alt="Computer Science Building">
+          <p>
+          <ul>
+            <li>Dedicated in 1987, this building honors J. Carlyle Sitterson, university chancellor from 1966 to 1971
+            </li>
+            <li>201 S. Columbia St. Chapel Hill, NC 27514</li>
+          </ul>
+          </p>
+          <!-- item 2.2 -->
+        </div>
+        <button class="d-1" id="sitterson">What's Happening?</button>
+        <!-- item -->
+      </div>
+      <!-- container 1 -->
+      <div class="clusterCard">
+        <!-- container 2 & item 1 -->
+        <div class="contentCluster">
+          <!-- container 3 & item 2 -->
+          <h3>Sonja Haynes Stone Center</h3>
+          <!-- item 2.1 -->
+          <img
+            src="https://cms.concept3d.com/map/lib/image-cache/i.php?mapId=111&image=111/Stone_Ctr-1.jpg&w=900&h=508&r=1"
+            alt="Stone Center Library">
+          <p>
+          <ul>
+            <li>The Sonja Haynes Stone Center for Black Culture and History was founded on July 1, 1988 at the
+              University of North Carolina at Chapel Hill</li>
+            <li>150 South Rd, Chapel Hill, NC 27599</li>
+          </ul>
+          </p>
+          <!-- item 2.2 -->
+        </div>
+        <button class="d-1" id="stone">What's Happening?</button>
+        <!-- item -->
+      </div>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.21/jquery.csv.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
